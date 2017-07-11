@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>index</title>
+		<link href="css/index.css" rel="stylesheet" />
+		<script src="js/lib/angular/angular.min.js"></script>
+		<script src="js/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+	    <script src="app.js"></script>
+	    <script src="js/C1Controller.js"></script>
+	</head>
+	<body ng-app="DAPP" ng-controller="mainController" style="background-color: lavender;">
+		<h1>index页面</h1>
+		<div style="width: 20%; float: left;background-color: lightgoldenrodyellow;text-align: center;">
+			<a ui-sref='C1'>C1</a><br />
+			<a ui-sref='C2'>C2</a><br />
+			<a ui-sref='C3'>C3</a><br />
+			<a ui-sref='C4'>C4</a>
+		</div>
+		<div style="width: 80%; float: right;background-color: #C0C0C0;">
+			<h1>路由区域</h1>
+			<ui-view> </ui-view>
+		</div>			
+	</body>
+</html>

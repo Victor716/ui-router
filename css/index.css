@@ -1,0 +1,91 @@
+/* index */
+header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+nav {
+	line-height: 30px;
+	background-color: #eeeeee;
+	height: 600px;
+	width: 20%;
+	float: left;
+	padding: 0px;
+	text-align: center;
+}
+
+div {
+	background-color: gainsboro;
+	width: 80%;
+	height: 600px;
+	float: right;
+	padding: 0px;
+}
+
+
+footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+/* Page 1 */
+.P1 {
+	background-color: papayawhip;
+	width: 100%;
+	height: 100%;
+}
+/* Page 1.1 */
+.P1_1 {
+	background-color: whitesmoke;
+	width: 80%;
+	height: 80%;
+}
+/* Page 1.1.1 */
+.P1_1_1 {
+	background-color: lightgrey;
+	width: 80%;
+	height: 80%;
+}
+/* Page 2 */
+
+.P2 {
+	background-color: powderblue;
+	width: 100%;
+	height: 100%;
+}
+/* Page 3 */
+.P3 {
+	background-color: mintcream;
+	width: 100%;
+	height: %;
+}
+section {
+	background-color: lightgreen;
+	height: 539px;
+	width: 20%;
+	float: left;
+	padding: 0px;
+	text-align: center;
+}
+#A{
+	width: 80%;
+	height: 269px;
+	background-color: antiquewhite;
+}
+#B{
+	width: 80%;
+	height: 269px;
+}
+.A {
+	width: 100%;
+	height: 50px;
+	background-color: antiquewhite;
+}
+.B{
+	width: 100%;
+	height: 50px;
+}
